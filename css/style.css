@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -124,6 +124,7 @@ body {
   color: #68A47F;
   font-family: "Great Vibes";
   font-size: 36px;
+  margin-bottom: 8px;
 }
 
 .hero-section__title {
@@ -162,6 +163,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 35px;
+  margin-bottom: 290px;
 }
 
 .pr {
@@ -204,4 +206,72 @@ body {
 
 .promotion2 .promotion__title {
   color: #274C5B;
+}
+
+/* Section - About Us */
+.about-section {
+  padding: 0 260px 0 49px;
+  display: flex;
+  align-items: center;
+}
+
+.section__title {
+  color: #274C5B;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.about-section .section__title {
+  margin-bottom: 15px;
+}
+
+.about-section .section__text {
+  margin-bottom: 45px;
+}
+
+.section__text {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+.advants {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+
+.advant {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.advant img {
+  padding: 27px;
+}
+
+.advant__title {
+  color: #274C5B;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+.advant__text {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+}
+
+.about-section .button {
+  background: #274C5B;
+  color: #FFF;
+}
+
+.about-section .button .ar-right {
+  background-color: #335B6B;
+  color: white;
 }
