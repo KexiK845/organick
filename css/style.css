@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+/* Header */
+.header {
+  padding: 69px 162px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.title {
+  color: #274C5B;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 47px
+}
+
+.nav-menu__link {
+  color: #274C5B;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-search {
+  border-radius: 36px;
+  border: 1px solid #E0E0E0;
+  background: #FAFAFA;
+  padding: 0 10px;
+}
+
+.header-buttons__search {
+  font-family: "Roboto";
+  border-radius: 36px;
+  font-weight: 600;
+  border: 0;
+  outline: none;
+  background: #FAFAFA;
+  padding: 20px;
+  color: gray;
+}
+
+.header-buttons__searchSubmit {
+  background-color: #7EB693;
+  padding: 13px 15px;
+  border-radius: 100%;
+  border: 0;
+  color: white;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.header-buttons__cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #274C5B;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 9px;
+  border-radius: 33px;
+  border: 1px solid #E0E0E0;
+  text-decoration: none;
+}
+
+.header-buttons__cart p {
+  color: white;
+  background-color: #274C5B;
+  padding: 13px 14px;
+  border-radius: 100%;
+}
+
+.down {
+  font-size: 15px;
+}
+
+.pages-down {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Main */
+.hero-section {
+  background: url("../images/hero_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0;
+}
+
+.section__uptitle {
+  color: #68A47F;
+  font-family: "Great Vibes";
+  font-size: 36px;
+}
+
+.hero-section__title {
+  color: #274C5B;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  max-width: 637px;
+  margin-bottom: 23px;
+}
+
+.button {
+  padding: 28px 39px;
+  border-radius: 16px;
+  background: #EFD372;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+  color: #274C5B;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ar-right {
+  padding: 8px 9px;
+  font-size: 10px;
+  color: white;
+  background-color: #335B6B;
+  border-radius: 30px;
+}
