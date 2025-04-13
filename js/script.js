@@ -1,4 +1,5 @@
 let productCards = document.querySelector('.product-cards');
+let recomendationCards = document.querySelector('.recomendation-cards')
 let products = [
     {
         image: "images/products/brokkoli.png",
@@ -47,19 +48,81 @@ let products = [
         category: "Свежее",
         name: "Чёрный хлеб",
         cost: 150
+    },
+    {
+        image: "images/products/kabachok.png",
+        category: "Овощи",
+        name: "Кабачок",
+        cost: 120
+    },
+    {
+        image: "images/products/onion.png",
+        category: "Овощи",
+        name: "Лук",
+        cost: 170
+    },
+    {
+        image: "images/products/cabbage.png",
+        category: "Овощи",
+        name: "Капуста",
+        cost: 170
     }
 ];
 
-for (let pr of products) {
+for (let i = 0; i < 8; i++) {
     productCards.innerHTML += `
         <div class="product-card">
-            <p class="product-card__category">${pr.category}</p>
-            <img src="${pr.image}" alt="" class="product-card__img">
-            <p class="product-card__title">${pr.name}</p>
+            <p class="product-card__category">${products[i].category}</p>
+            <img src="${products[i].image}" alt="" class="product-card__img">
+            <p class="product-card__title">${products[i].name}</p>
             <div class="product-card__footer">
               <div class="product-card__price">
                 <p class="product-card__old-price">200р.</p>
-                <p class="product-card__new-price">${pr.cost}р.</p>
+                <p class="product-card__new-price">${products[i].cost}р.</p>
+              </div>
+              <div class="product-card__rating">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+              </div>
+            </div>
+        </div>
+    `
+}
+
+recomendationCards.innerHTML += `
+    <div class="product-card">
+            <p class="product-card__category">${products[0].category}</p>
+            <img src="${products[0].image}" alt="" class="product-card__img">
+            <p class="product-card__title">${products[0].name}</p>
+            <div class="product-card__footer">
+              <div class="product-card__price">
+                <p class="product-card__old-price">200р.</p>
+                <p class="product-card__new-price">${products[0].cost}р.</p>
+              </div>
+              <div class="product-card__rating">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+              </div>
+            </div>
+        </div>
+`
+
+for (let i = 8; i <= 12; i++) {
+    recomendationCards.innerHTML += `
+        <div class="product-card">
+            <p class="product-card__category">${products[i].category}</p>
+            <img src="${products[i].image}" alt="" class="product-card__img">
+            <p class="product-card__title">${products[i].name}</p>
+            <div class="product-card__footer">
+              <div class="product-card__price">
+                <p class="product-card__old-price">200р.</p>
+                <p class="product-card__new-price">${products[i].cost}р.</p>
               </div>
               <div class="product-card__rating">
                 <img src="images/icons/star.png" alt="">

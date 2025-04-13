@@ -306,6 +306,8 @@ body {
 
 .product-card__img {
   height: 324px;
+  object-fit: cover;
+  display: flex;
 }
 
 .product-card__category {
@@ -457,4 +459,27 @@ body {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 600;
+}
+
+/* Section - Recomendations */
+.recomendation-section {
+  background-color: #274C5B;
+  padding: 201px 0 145px 0;
+}
+
+.recomendation-section .section__title {
+  color: #FFFFFF;
+  max-width: 624px;
+}
+
+.recomendation-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+.recomendation-cards {
+  display: flex;
+  gap: 20px;
 }
