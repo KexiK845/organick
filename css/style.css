@@ -522,3 +522,41 @@ body {
   font-size: 18px;
   max-width: 635px;
 }
+
+
+/* Section - Lenta */
+.lenta-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lenta-item {
+  padding: 244px 122px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenta-item:nth-child(1) {
+  background-image: url("../images/lenta-img1.png");
+}
+
+.lenta-item:nth-child(2) {
+  background-image: url("../images/lenta-img2.png");
+}
+
+.lenta-item:nth-child(3) {
+  background-image: url("../images/lenta-img3.png");
+}
+
+.lenta-item__text {
+  color: #274C5B;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 33px 83px;
+  border-radius: 20px;
+  background: #FFF;
+  text-decoration: none;
+}
