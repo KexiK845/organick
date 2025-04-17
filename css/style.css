@@ -15,6 +15,15 @@ body {
   font-family: "Roboto";
 }
 
+/* Burger */
+.burger-menu {
+  display: none;
+}
+
+.burger-menu__link {
+  color: #274C5B;
+}
+
 /* Header */
 .header {
   padding: 69px 162px;
@@ -672,6 +681,10 @@ body {
 }
 
 /* Section - Mailing */
+.mailing-section {
+  margin-bottom: 117px;
+}
+
 .mailing-section .container {
   padding: 105px 87px;
   background-image: url("../images/email.png");
@@ -719,4 +732,103 @@ body {
   border-radius: 16px;
   background: #274C5B;
   cursor: pointer;
+}
+
+/* Section - Footer */
+footer {
+  margin-bottom: 50px;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 300px 600px 300px;
+  justify-content: center;
+  gap: 51px;
+}
+
+.footer-leftside {
+  text-align: right;
+}
+
+.side__title {
+  color: #274C5B;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 50px;
+}
+
+.contact__title {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact__desc {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 18px;
+  max-width: 285px;
+}
+
+.footer-centerside {
+  border-left: 1px solid #D4D4D4;
+  border-right: 1px solid #D4D4D4;
+  padding: 0 41px;
+  text-align: center;
+}
+
+.footer-centerside .title-link {
+  justify-content: center;
+  margin-bottom: 23px;
+}
+
+.footer-rightside {
+  text-align: left;
+}
+
+.footer-centerside__text {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.contacts-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contacts-icons a {
+  color: #274C5B;
+  padding: 12px 14px;
+  background-color: #EFF6F1;
+  border-radius: 100px;
+  transition-duration: .25s;
+}
+
+.contacts-icons a:hover {
+  color: #EFF6F1;
+  background-color: #274C5B;
+}
+
+.rightside__text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-size: 18px;
+}
+
+.rightside__text a {
+  color: #525C60;
+  font-family: "Open Sans";
+  text-decoration: none;
 }

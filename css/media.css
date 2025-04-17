@@ -1,0 +1,116 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .container {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header {
+        padding: 30px 30px;
+    }
+
+    .header .title {
+        display: none;
+    }
+
+    .hero-section {
+        padding: 80px 0;
+        margin-bottom: 36px;
+    }
+    
+    .section__title {
+        font-size: 20px;
+    }
+
+
+    .hero-section .section__uptitle {
+        font-size: 16pt;
+    }
+
+    .hero-section .hero-section__title {
+        font-size: 26px;
+    }
+
+    .hero-section .button {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .promotions-section {
+        margin-bottom: 70px;
+    }
+
+    .promotions {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .pr {
+        padding: 14px;
+        display: flex;
+        align-items: center;
+        width: 260px;
+        height: 146px;
+    }
+
+    .promotion__uptitle {
+        display: none;
+    }
+
+    .promotion__title {
+        max-width: 138px;
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 0;
+        max-width: 260px;
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about-text {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .section__text {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .advant {
+        gap: 10px;
+    }
+
+    .advant img {
+        padding: 5px;
+    }
+
+    .advant__title {
+        font-size: 14px;
+        text-align: left;
+        max-width: auto;
+    }
+
+    .advant__text {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .about-section img[src="images/about-img.png"] {
+        display: none;
+    }
+}
