@@ -1,5 +1,21 @@
 let productCards = document.querySelector('.product-cards');
-let recomendationCards = document.querySelector('.recomendation-cards')
+let recomendationCards = document.querySelector('.recomendation-cards');
+let newsCards = document.querySelector('.news');
+let news = [
+    {
+        date: "25 Ноя",
+        author: "Павлов Артур",
+        title: "Преимущества витамина D",
+        desc: "Как витамин D укрепляет здоровье и где его найти."
+    },
+    {
+        date: "25 Ноя",
+        author: "Павлов Артур",
+        title: "Наши любимые летние помидоры",
+        desc: "Почему этот сорт томатов стал нашим летним фаворитом."
+    }
+];
+
 let products = [
     {
         image: "images/products/brokkoli.png",
@@ -113,7 +129,7 @@ recomendationCards.innerHTML += `
         </div>
 `
 
-for (let i = 8; i <= 12; i++) {
+for (let i = 8; i < products.length; i++) {
     recomendationCards.innerHTML += `
         <div class="product-card">
             <p class="product-card__category">${products[i].category}</p>
@@ -131,6 +147,21 @@ for (let i = 8; i <= 12; i++) {
                 <img src="images/icons/star.png" alt="">
                 <img src="images/icons/star.png" alt="">
               </div>
+            </div>
+        </div>
+    `
+}
+
+
+for (let i = 0; i < 2; i++) {
+    newsCards.innerHTML += `
+        <div class="news-card">
+            <p class="news__date">${news[i].date}</p>
+            <div class="news-info">
+              <p class="news__author"><i class="fa-solid fa-user"></i> ${news[i].author}</p>
+              <p class="news__title">${news[i].title}</p>
+              <p class="news__desc">${news[i].desc}</p>
+              <a href="" class="button">Читать <i class="fa-solid fa-arrow-right ar-right"></i></a>
             </div>
         </div>
     `
