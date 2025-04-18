@@ -28,6 +28,10 @@
         padding: 80px 0;
         margin-bottom: 36px;
     }
+
+    .section__uptitle {
+        font-size: 24px;
+    }
     
     .section__title {
         font-size: 20px;
@@ -96,6 +100,7 @@
     }
 
     .advant img {
+        width: 35px;
         padding: 5px;
     }
 
@@ -110,7 +115,44 @@
         font-size: 12px;
     }
 
-    .about-section img[src="images/about-img.png"] {
+    .about-section img[src="images/about-img.webp"] {
         display: none;
+    }
+
+    .about-section .button {
+        display: none;
+    }
+
+    .product-cards {
+        margin-bottom: 22px;
+    }
+
+    .product-card {
+        width: 260px;
+    }
+
+    .product-card__price {
+        gap: 15px;
+    }
+
+    .product-card__new-price {
+        font-size: 16px;
+    }
+
+    .product-card__old-price {
+        font-size: 13px;
+    }
+
+    .product-card__title {
+        font-size: 15px;
+    }
+
+    .product-card .product-card__img {
+        height: 229px;
+    }
+
+    .categories-section .button {
+        padding: 15px 20px;
+        font-size: 16px;
     }
 }
