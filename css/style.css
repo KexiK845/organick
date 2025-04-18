@@ -320,8 +320,6 @@ body {
 
 .product-card__img {
   height: 324px;
-  display: block;
-  margin: 0 auto;
 }
 
 .product-card__category {
@@ -389,6 +387,10 @@ body {
 /* Section - Testimonial */
 .testimonial-section .section__title {
   margin-bottom: 60px;
+}
+
+.testimonial__role_mobile, .testimonial__author_mobile {
+  display: none;
 }
 
 .testimonial-section {

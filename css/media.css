@@ -83,6 +83,7 @@
         margin: 0 auto;
         text-align: center;
         flex-direction: column;
+        background-color: transparent;
     }
 
     .about-text {
@@ -123,6 +124,10 @@
         display: none;
     }
 
+    .categories-section {
+        margin-bottom: 136px;
+    }
+
     .product-cards {
         margin-bottom: 22px;
     }
@@ -154,5 +159,42 @@
     .categories-section .button {
         padding: 15px 20px;
         font-size: 16px;
+    }
+
+    .testimonial-section {
+        padding-top: 0;
+        background-image: none;
+    }
+
+    .testimonial__role_mobile, .testimonial__author_mobile {
+        display: block !important;
+    }
+
+    .testimonial__author, .testimonial__role {
+        display: none;
+    }
+
+    .testimonial-stat {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .stat {
+        padding: 20px;
+        width: 116px;
+        height: 116px;
+    }
+
+    .stat__title {
+        font-size: 20px;
+    }
+
+    .stat__desc {
+        font-size: 14px;
     }
 }
