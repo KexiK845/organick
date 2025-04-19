@@ -611,11 +611,11 @@ body {
 }
 
 .news-card:nth-child(1) {
-  background-image: url("../images/news/news1.png");
+  background-image: url("../images/news/news1.webp");
 }
 
 .news-card:nth-child(2) {
-  background-image: url("../images/news/news2.png");
+  background-image: url("../images/news/news2.webp");
 }
 
 .news-card {
