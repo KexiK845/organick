@@ -311,6 +311,13 @@ body {
   margin-bottom: 122px;
 }
 
+.product-cards-shop {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 122px;
+}
+
 .product-card {
   width: 335px;
   padding: 30px;
