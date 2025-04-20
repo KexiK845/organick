@@ -316,9 +316,41 @@
 
     .mailing-section .container {
         padding: 47px 15px;
+        background-position: center;
+    }
+
+    .mailing-form__title {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 58px;
+    }
+
+    .mailing-form__input {
+        padding: 28px 23px;
+        max-width: 222px;
+        margin: 0 auto;
+        margin-bottom: 6px;
     }
 
     .mailing-form {
         flex-direction: column;
+    }
+
+    footer .container {
+        display: block;
+    }
+
+    .footer-leftside, .footer-rightside {
+        display: none;
+    }
+
+    .footer-centerside {
+        border: none;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .footer-centerside__text {
+        margin-bottom: 31px;
     }
 }
