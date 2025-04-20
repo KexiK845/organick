@@ -197,4 +197,128 @@
     .stat__desc {
         font-size: 14px;
     }
+
+    .adapt-button {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .recomendation-section {
+        padding: 47px 0;
+    }
+
+    .recomendation-cards {
+        flex-direction: column;
+        margin-bottom: 38px;
+    }
+
+    .adapt-button .button {
+        font-size: 15px;
+        padding: 28px 15px;
+    }
+
+    img[src="images/about-img2.webp"] {
+        display: none;
+    }
+
+    .description {
+        position: static;
+        padding: 100px 30px 30px 30px;
+        text-align: center;
+    }
+
+    .description-item__text {
+        text-align: justify !important;
+    }
+
+    .description-item__title {
+        font-size: 20px;
+    }
+
+    .lenta-section {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .lenta-item {
+        height: 300px;
+        padding: 125px 63px;
+    }
+
+    .lenta-item__text {
+        padding: 15px 20px;
+        font-size: 17px;
+    }
+
+    .section-header {
+        text-align: center;
+    }
+
+    .news {
+        flex-direction: column;
+        margin-bottom: 59px;
+    }
+
+    .news-card:nth-child(1), .news-card:nth-child(2) {
+        background-image: none;
+    }
+
+    .news__date {
+        display: none;
+    }
+
+    .section-header .button {
+        display: none;
+    }
+
+    .news-info {
+        position: static;
+        padding: 38px 16px;
+        max-width: 9999px;
+    }
+
+    .news-card {
+        padding: 0;
+        height: auto;
+    }
+
+    .news-card .button {
+        padding: 9px 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news__author {
+        margin-bottom: 52px;
+    }
+
+    .news__title {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .news__desc {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 52px;
+    }
+
+    .adapt-button .button {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+
+    .mailing-section .container {
+        padding: 47px 15px;
+    }
+
+    .mailing-form {
+        flex-direction: column;
+    }
 }

@@ -17,6 +17,13 @@
 </head>
 
 <body>
+<div class="nav-menu__burger" id="burger">
+  <ul class="burger__items"><a href="index.html" class="burger__link">Главная</a></ul>
+  <ul class="burger__items"><a href="" class="burger__link">О нас</a></ul>
+  <ul class="burger__items"><a href="shop.html" class="burger__link">Магазин</a></ul>
+  <ul class="burger__items"><a href="" class="burger__link">Проекты</a></ul>
+  <ul class="burger__items"><a href="" class="burger__link">Новости</a></ul>
+</div>
 <header class="header">
   <a href="index.html" class="title-link">
     <img src="images/logo.svg" alt="Логотип">
@@ -36,17 +43,17 @@
   <div class="header-buttons">
     <div class="header-search">
       <input type="text" class="header-buttons__search">
-      <button class="header-buttons__searchSubmit"><i id="burgerIcon" class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="header-buttons__searchSubmit"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
     <a href="#" class="header-buttons__cart">
       <p><i class="fa-regular fa-cart-shopping"></i></p> Корзина (0)
     </a>
   </div>
   <div class="burger-menu">
-    <a href="#" class="burger-menu__link"><i class="fa-solid fa-bars"></i></a>
+    <a href="#" class="burger-menu__link"><i id="burgerIcon" class="fa-solid fa-bars"></i></a>
   </div>
 </header>
-
+<div class="background-burger" id="backgroundBurger"></div>
 <main>
   <section class="banner-section-shop">
     <div class="container">

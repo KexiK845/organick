@@ -559,6 +559,10 @@ header {
   gap: 20px;
 }
 
+.adapt-button {
+    display: none;
+}
+
 /* Section - Description */
 .shopdesc-section {
   position: relative;

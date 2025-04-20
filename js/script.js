@@ -168,7 +168,7 @@ if (productCards && recomendationCards && newsCards) {
         </div>
 `
 
-    for (let i = 12; i < 16; i++) {
+    for (let i = 12; i < products.length; i++) {
         recomendationCards.innerHTML += `
         <div class="product-card">
             <p class="product-card__category">${products[i].category}</p>
