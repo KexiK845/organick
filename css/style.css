@@ -750,6 +750,14 @@ body {
   cursor: pointer;
 }
 
+/*  New Page - Shop  */
+.banner-section-shop {
+  background-image: url("../images/shop-banner.webp");
+  padding: 184px 0;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
 /* Section - Footer */
 footer {
   margin-bottom: 50px;
