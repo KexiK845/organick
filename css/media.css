@@ -338,6 +338,7 @@
 
     footer .container {
         display: block;
+        margin: 0 auto;
     }
 
     .footer-leftside, .footer-rightside {
