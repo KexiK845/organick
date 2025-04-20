@@ -2,6 +2,17 @@ let productCards = document.querySelector('.product-cards');
 let productCardsShop = document.querySelector('.product-cards-shop');
 let recomendationCards = document.querySelector('.recomendation-cards');
 let newsCards = document.querySelector('.news');
+let burgerIcon = document.querySelector('#burgerIcon');
+let burgerMenu = document.querySelector('#burger');
+let backgroundBurger = document.querySelector('#backgroundBurger');
+
+burgerIcon.addEventListener('click', () => {
+    burgerIcon.classList.toggle('fa-bars');
+    burgerIcon.classList.toggle('fa-xmark');
+    burger.classList.toggle('activeBurger');
+    backgroundBurger.classList.toggle('active-background-burger')
+});
+
 let news = [
     {
         date: "25 Ноя",
