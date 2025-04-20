@@ -11,6 +11,7 @@ burgerIcon.addEventListener('click', () => {
     burgerIcon.classList.toggle('fa-xmark');
     burger.classList.toggle('activeBurger');
     backgroundBurger.classList.toggle('active-background-burger');
+    document.body.classList.toggle('body-lock');
 });
 
 let news = [
