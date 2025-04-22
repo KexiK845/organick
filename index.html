@@ -5,284 +5,298 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Organick - магазин по продаже фермерских продкутов.">
-    <meta name="keywords" content="магазин органики, фермерские продукты, органика, органическая продукция, фермерские продукты">
+    <meta name="keywords"
+        content="магазин органики, фермерские продукты, органика, органическая продукция, фермерские продукты">
     <link rel="preload" href="images/hero_background.webp" as="image">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/gh/oathanrex/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css"
-          rel="stylesheet">
+        rel="stylesheet">
     <script src="js/script.js" defer></script>
     <title>Organick</title>
 </head>
 
 <body>
-<div class="nav-menu__burger" id="burger">
-    <ul class="burger__items"><a href="index.html" class="burger__link">Главная</a></ul>
-    <ul class="burger__items"><a href="" class="burger__link">О нас</a></ul>
-    <ul class="burger__items"><a href="shop.html" class="burger__link">Магазин</a></ul>
-    <ul class="burger__items"><a href="" class="burger__link">Проекты</a></ul>
-    <ul class="burger__items"><a href="" class="burger__link">Новости</a></ul>
-</div>
-<header class="header">
-    <a href="index.html" class="title-link">
-        <img src="images/logo.svg" alt="Логотип">
-        <h1 class="title">Organick</h1>
-    </a>
-    <nav class="nav">
-        <ul class="nav-menu">
-            <li class="nav-menu__item"><a href="index.html" class="nav-menu__link">Главная</a></li>
-            <li class="nav-menu__item"><a href="#" class="nav-menu__link">О нас</a></li>
-            <li class="nav-menu__item"><a href="#" class="nav-menu__link pages-down">Страницы <i
-                    class="fa-solid fa-chevron-down down"></i></a></li>
-            <li class="nav-menu__item"><a href="shop.html" class="nav-menu__link">Магазин</a></li>
-            <li class="nav-menu__item"><a href="#" class="nav-menu__link">Проекты</a></li>
-            <li class="nav-menu__item"><a href="#" class="nav-menu__link">Новости</a></li>
-        </ul>
-    </nav>
-    <div class="header-buttons">
-        <div class="header-search">
-            <input type="text" class="header-buttons__search">
-            <button class="header-buttons__searchSubmit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-        <a href="#" class="header-buttons__cart">
-            <p><i class="fa-regular fa-cart-shopping"></i></p> Корзина (0)
+    <div class="nav-menu__burger" id="burger">
+        <ul class="burger__items"><a href="index.html" class="burger__link">Главная</a></ul>
+        <ul class="burger__items"><a href="#" class="burger__link">О нас</a></ul>
+        <ul class="burger__items"><a href="shop.html" class="burger__link">Магазин</a></ul>
+        <ul class="burger__items"><a href="#" class="burger__link">Проекты</a></ul>
+        <ul class="burger__items"><a href="news.html" class="burger__link">Новости</a></ul>
+    </div>
+    <header class="header">
+        <a href="index.html" class="title-link">
+            <img src="images/logo.svg" alt="Логотип">
+            <h1 class="title">Organick</h1>
         </a>
-    </div>
-    <div class="burger-menu">
-        <a href="#" class="burger-menu__link"><i id="burgerIcon"  class="fa-solid fa-bars"></i></a>
-    </div>
-</header>
-<div class="background-burger" id="backgroundBurger"></div>
-<main>
-    <section class="hero-section">
-        <div class="container">
-            <p class="section__uptitle">100% Натуральная еда</p>
-            <h2 class="hero-section__title">Выбирайте лучший здоровый образ жизни</h2>
-            <a href="#" class="button">Узнать больше <i class="fa-solid fa-arrow-right ar-right"></i></a>
-        </div>
-    </section>
-    <section class="promotions-section">
-        <div class="container">
-            <div class="promotions">
-                <div class="promotion1 pr">
-                    <p class="promotion__uptitle">Натурально!!</p>
-                    <h3 class="promotion__title">Получите свежие фрукты из сада</h3>
-                </div>
-                <div class="promotion2 pr">
-                    <p class="promotion__uptitle">Предложение!!</p>
-                    <h3 class="promotion__title">Получите скидку 10% на овощи</h3>
-                </div>
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu__item"><a href="index.html" class="nav-menu__link">Главная</a></li>
+                <li class="nav-menu__item"><a href="#" class="nav-menu__link">О нас</a></li>
+                <li class="nav-menu__item"><a href="#" class="nav-menu__link pages-down">Страницы <i
+                            class="fa-solid fa-chevron-down down"></i></a></li>
+                <li class="nav-menu__item"><a href="shop.html" class="nav-menu__link">Магазин</a></li>
+                <li class="nav-menu__item"><a href="#" class="nav-menu__link">Проекты</a></li>
+                <li class="nav-menu__item"><a href="news.html" class="nav-menu__link">Новости</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <div class="header-search">
+                <input type="text" class="header-buttons__search">
+                <button class="header-buttons__searchSubmit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-        </div>
-    </section>
-
-    <section class="about-section">
-        <img src="images/about-img.webp" alt="">
-        <div class="about-text">
-            <p class="section__uptitle">О нас</p>
-            <h3 class="section__title">Мы верим в работу аккредитованных фермеров</h3>
-            <p class="section__text">Мы сотрудничаем только с проверенными фермерами, которые разделяют нашу любовь к
-                природе и заботе о здоровье людей. Каждый продукт выращивается с соблюдением строгих стандартов органического
-                земледелия, без использования химикатов и пестицидов. Благодаря их труду мы можем предложить вам чистые,
-                полезные и натуральные продукты, которые вы сможете есть с удовольствием и уверенностью.</p>
-            <div class="advants">
-                <div class="advant">
-                    <img src="images/icons/i1.svg" alt="">
-                    <div class="advant-text">
-                        <h4 class="advant__title">Только органические продукты</h4>
-                        <p class="advant__text">Мы предлагаем только те продукты, которые выращены без химикатов и пестицидов.
-                            Чистота, польза и натуральность — наш приоритет.</p>
-                    </div>
-                </div>
-                <div class="advant">
-                    <img src="images/icons/i2.svg" alt="">
-                    <div class="advant-text">
-                        <h4 class="advant__title">Стандарты качества</h4>
-                        <p class="advant__text">Каждый продукт проходит строгий контроль и соответствует международным стандартам
-                            органического производства. Ваше доверие — наша ответственность.</p>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="button">Купить сейчас <i class="fa-solid fa-arrow-right ar-right"></i></a>
-        </div>
-    </section>
-
-    <section class="categories-section">
-        <div class="container">
-            <p class="section__uptitle">Категории</p>
-            <h3 class="section__title">Наши продукты</h3>
-            <div class="product-cards"></div>
-            <div class="button-wrap">
-                <a href="#" class="button">Больше <i class="fa-solid fa-arrow-right ar-right"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonial-section">
-        <div class="container">
-            <p class="section__uptitle">Отзыв</p>
-            <h3 class="section__title">Что говорят наши клиенты?</h3>
-            <p class="testimonial__author testimonial__author_mobile">Сара Тайлер</p>
-            <p class="testimonial__role testimonial__role_mobile">Потребитель</p>
-            <img src="images/testimonial-person.png" alt="" class="testimonial-person">
-            <div class="rating">
-                <img src="images/icons/star.png" alt="">
-                <img src="images/icons/star.png" alt="">
-                <img src="images/icons/star.png" alt="">
-                <img src="images/icons/star.png" alt="">
-                <img src="images/icons/star.png" alt="">
-            </div>
-            <p class="section__text">Суперский сайт! Заказываю здесь фрукты и овощи для семьи – все свежее, вкусное, без химии. Цены приятные, доставка удобная. Особенно радует возможность выбирать сезонные продукты напрямую от фермеров. Рекомендую!</p>
-            <p class="testimonial__author">Сара Тайлер</p>
-            <p class="testimonial__role">Потребитель</p>
-            <img src="images/navigation.png" alt="" class="testimonial__navigation">
-            <div class="line"></div>
-            <div class="testimonial-stat">
-                <div class="stat">
-                    <p class="stat__title">100%</p>
-                    <p class="stat__desc">Натурально</p>
-                </div>
-                <div class="stat">
-                    <p class="stat__title">285</p>
-                    <p class="stat__desc">Активных <br> продуктов</p>
-                </div>
-                <div class="stat">
-                    <p class="stat__title">350+</p>
-                    <p class="stat__desc">Органических <br> садов</p>
-                </div>
-                <div class="stat">
-                    <p class="stat__title">25+</p>
-                    <p class="stat__desc">Лет <br>в фермерстве</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="recomendation-section">
-        <div class="container">
-            <div class="section-header">
-                <div>
-                    <p class="section__uptitle">Предложение</p>
-                    <h3 class="section__title">Мы предлагаем вам органическую продукцию</h3>
-                </div>
-                <div class="btn">
-                    <a href="#" class="button">Посмотреть все продукты <i class="fa-solid fa-arrow-right ar-right"></i></a>
-                </div>
-            </div>
-            <div class="recomendation-cards"></div>
-            <div class="adapt-button">
-                <a href="#" class="button">Посмотреть все продукты <i class="fa-solid fa-arrow-right ar-right"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="shopdesc-section">
-        <img src="images/about-img2.webp" alt="">
-        <div class="description">
-            <p class="section__uptitle">Экологически чистый</p>
-            <h3 class="section__title">Organick - это эко-дружелюбный магазин</h3>
-            <div class="description-items">
-                <div class="description-item">
-                    <p class="description-item__title">Начните сначала с нашей компании</p>
-                    <p class="description-item__text">Сделайте шаг к лучшему будущему. Честно, экологично, вдохновляюще. Ваш старт — здесь и сейчас!</p>
-                </div>
-                <div class="description-item">
-                    <p class="description-item__title">Узнайте, как вырастить себя</p>
-                    <p class="description-item__text">Откройте секреты личностного роста. Меняйтесь легко и уверенно. Ваш путь к лучшей версии начинается здесь!</p>
-                </div>
-                <div class="description-item">
-                    <p class="description-item__title">Современные стратегии ведения сельского хозяйства</p>
-                    <p class="description-item__text">Мы применяем инновационные и экологичные подходы для эффективного сельского хозяйства. Ваш успех — наша забота.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="lenta-section">
-        <div class="lenta-item">
-            <a href="#" class="lenta-item__text">Натуральный сок</a>
-        </div>
-        <div class="lenta-item">
-            <a href="#" class="lenta-item__text">Натуральная еда</a>
-        </div>
-        <div class="lenta-item">
-            <a href="#" class="lenta-item__text">Печенье с орехами</a>
-        </div>
-    </section>
-
-    <section class="news-section">
-        <div class="container">
-            <div class="section-header">
-                <div>
-                    <p class="section__uptitle">Новости</p>
-                    <h3 class="section__title">Еженедельно узнавайте новое об органической еде и многом другом.</h3>
-                </div>
-            </div>
-            <div class="news"></div>
-            <div class="adapt-button">
-                <a href="#" class="button">Больше новостей <i class="fa-solid fa-arrow-right ar-right"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="mailing-section">
-        <div class="container">
-            <form action="#" class="mailing-form">
-                <h3 class="mailing-form__title">Подпишись на нашу рассылку</h3>
-                <div>
-                    <input type="text" class="mailing-form__input" placeholder="Ваш email">
-                    <input type="submit" value="Подписаться" class="mailing-form__button">
-                </div>
-            </form>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <div class="container">
-        <div class="footer-leftside">
-            <p class="side__title">Наши контакты</p>
-            <div class="contacts">
-                <div class="contact">
-                    <p class="contact__title">Email</p>
-                    <p class="contact__desc">needhelp@organick.com</p>
-                </div>
-                <div class="contact">
-                    <p class="contact__title">Телефон</p>
-                    <p class="contact__desc">+7 987 435 23-21</p>
-                </div>
-                <div class="contact">
-                    <p class="contact__title">Адрес</p>
-                    <p class="contact__desc">г. Москва, ул. Ленинский проспект, д. 32</p>
-                </div>
-            </div>
-        </div>
-        <div class="footer-centerside">
-            <a href="#" class="title-link">
-                <img src="images/logo.svg" alt="">
-                <h1 class="title">Organick</h1>
+            <a href="#" class="header-buttons__cart">
+                <p><i class="fa-regular fa-cart-shopping"></i></p> Корзина (0)
             </a>
-            <p class="footer-centerside__text">Simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum simply dummy text of the printing </p>
-            <div class="contacts-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="burger-menu">
+            <a href="#" class="burger-menu__link"><i id="burgerIcon" class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    <div class="background-burger" id="backgroundBurger"></div>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <p class="section__uptitle">100% Натуральная еда</p>
+                <h2 class="hero-section__title">Выбирайте лучший здоровый образ жизни</h2>
+                <a href="#" class="button">Узнать больше <i class="fa-solid fa-arrow-right ar-right"></i></a>
+            </div>
+        </section>
+        <section class="promotions-section">
+            <div class="container">
+                <div class="promotions">
+                    <div class="promotion1 pr">
+                        <p class="promotion__uptitle">Натурально!!</p>
+                        <h3 class="promotion__title">Получите свежие фрукты из сада</h3>
+                    </div>
+                    <div class="promotion2 pr">
+                        <p class="promotion__uptitle">Предложение!!</p>
+                        <h3 class="promotion__title">Получите скидку 10% на овощи</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <img src="images/about-img.webp" alt="">
+            <div class="about-text">
+                <p class="section__uptitle">О нас</p>
+                <h3 class="section__title">Мы верим в работу аккредитованных фермеров</h3>
+                <p class="section__text">Мы сотрудничаем только с проверенными фермерами, которые разделяют нашу любовь
+                    к
+                    природе и заботе о здоровье людей. Каждый продукт выращивается с соблюдением строгих стандартов
+                    органического
+                    земледелия, без использования химикатов и пестицидов. Благодаря их труду мы можем предложить вам
+                    чистые,
+                    полезные и натуральные продукты, которые вы сможете есть с удовольствием и уверенностью.</p>
+                <div class="advants">
+                    <div class="advant">
+                        <img src="images/icons/i1.svg" alt="">
+                        <div class="advant-text">
+                            <h4 class="advant__title">Только органические продукты</h4>
+                            <p class="advant__text">Мы предлагаем только те продукты, которые выращены без химикатов и
+                                пестицидов.
+                                Чистота, польза и натуральность — наш приоритет.</p>
+                        </div>
+                    </div>
+                    <div class="advant">
+                        <img src="images/icons/i2.svg" alt="">
+                        <div class="advant-text">
+                            <h4 class="advant__title">Стандарты качества</h4>
+                            <p class="advant__text">Каждый продукт проходит строгий контроль и соответствует
+                                международным стандартам
+                                органического производства. Ваше доверие — наша ответственность.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="button">Купить сейчас <i class="fa-solid fa-arrow-right ar-right"></i></a>
+            </div>
+        </section>
+
+        <section class="categories-section">
+            <div class="container">
+                <p class="section__uptitle">Категории</p>
+                <h3 class="section__title">Наши продукты</h3>
+                <div class="product-cards"></div>
+                <div class="button-wrap">
+                    <a href="#" class="button">Больше <i class="fa-solid fa-arrow-right ar-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <div class="container">
+                <p class="section__uptitle">Отзыв</p>
+                <h3 class="section__title">Что говорят наши клиенты?</h3>
+                <p class="testimonial__author testimonial__author_mobile">Сара Тайлер</p>
+                <p class="testimonial__role testimonial__role_mobile">Потребитель</p>
+                <img src="images/testimonial-person.png" alt="" class="testimonial-person">
+                <div class="rating">
+                    <img src="images/icons/star.png" alt="">
+                    <img src="images/icons/star.png" alt="">
+                    <img src="images/icons/star.png" alt="">
+                    <img src="images/icons/star.png" alt="">
+                    <img src="images/icons/star.png" alt="">
+                </div>
+                <p class="section__text">Суперский сайт! Заказываю здесь фрукты и овощи для семьи – все свежее, вкусное,
+                    без химии. Цены приятные, доставка удобная. Особенно радует возможность выбирать сезонные продукты
+                    напрямую от фермеров. Рекомендую!</p>
+                <p class="testimonial__author">Сара Тайлер</p>
+                <p class="testimonial__role">Потребитель</p>
+                <img src="images/navigation.png" alt="" class="testimonial__navigation">
+                <div class="line"></div>
+                <div class="testimonial-stat">
+                    <div class="stat">
+                        <p class="stat__title">100%</p>
+                        <p class="stat__desc">Натурально</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat__title">285</p>
+                        <p class="stat__desc">Активных <br> продуктов</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat__title">350+</p>
+                        <p class="stat__desc">Органических <br> садов</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat__title">25+</p>
+                        <p class="stat__desc">Лет <br>в фермерстве</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recomendation-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="section__uptitle">Предложение</p>
+                        <h3 class="section__title">Мы предлагаем вам органическую продукцию</h3>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class="button">Посмотреть все продукты <i
+                                class="fa-solid fa-arrow-right ar-right"></i></a>
+                    </div>
+                </div>
+                <div class="recomendation-cards"></div>
+                <div class="adapt-button">
+                    <a href="#" class="button">Посмотреть все продукты <i
+                            class="fa-solid fa-arrow-right ar-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="shopdesc-section">
+            <img src="images/about-img2.webp" alt="">
+            <div class="description">
+                <p class="section__uptitle">Экологически чистый</p>
+                <h3 class="section__title">Organick - это эко-дружелюбный магазин</h3>
+                <div class="description-items">
+                    <div class="description-item">
+                        <p class="description-item__title">Начните сначала с нашей компании</p>
+                        <p class="description-item__text">Сделайте шаг к лучшему будущему. Честно, экологично,
+                            вдохновляюще. Ваш старт — здесь и сейчас!</p>
+                    </div>
+                    <div class="description-item">
+                        <p class="description-item__title">Узнайте, как вырастить себя</p>
+                        <p class="description-item__text">Откройте секреты личностного роста. Меняйтесь легко и
+                            уверенно. Ваш путь к лучшей версии начинается здесь!</p>
+                    </div>
+                    <div class="description-item">
+                        <p class="description-item__title">Современные стратегии ведения сельского хозяйства</p>
+                        <p class="description-item__text">Мы применяем инновационные и экологичные подходы для
+                            эффективного сельского хозяйства. Ваш успех — наша забота.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lenta-section">
+            <div class="lenta-item">
+                <a href="#" class="lenta-item__text">Натуральный сок</a>
+            </div>
+            <div class="lenta-item">
+                <a href="#" class="lenta-item__text">Натуральная еда</a>
+            </div>
+            <div class="lenta-item">
+                <a href="#" class="lenta-item__text">Печенье с орехами</a>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="section__uptitle">Новости</p>
+                        <h3 class="section__title">Еженедельно узнавайте новое об органической еде и многом другом.</h3>
+                    </div>
+                </div>
+                <div class="news"></div>
+                <div class="adapt-button">
+                    <a href="#" class="button">Больше новостей <i class="fa-solid fa-arrow-right ar-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mailing-section">
+            <div class="container">
+                <form action="#" class="mailing-form">
+                    <h3 class="mailing-form__title">Подпишись на нашу рассылку</h3>
+                    <div>
+                        <input type="text" class="mailing-form__input" placeholder="Ваш email">
+                        <input type="submit" value="Подписаться" class="mailing-form__button">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-leftside">
+                <p class="side__title">Наши контакты</p>
+                <div class="contacts">
+                    <div class="contact">
+                        <p class="contact__title">Email</p>
+                        <p class="contact__desc">needhelp@organick.com</p>
+                    </div>
+                    <div class="contact">
+                        <p class="contact__title">Телефон</p>
+                        <p class="contact__desc">+7 987 435 23-21</p>
+                    </div>
+                    <div class="contact">
+                        <p class="contact__title">Адрес</p>
+                        <p class="contact__desc">г. Москва, ул. Ленинский проспект, д. 32</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-centerside">
+                <a href="#" class="title-link">
+                    <img src="images/logo.svg" alt="">
+                    <h1 class="title">Organick</h1>
+                </a>
+                <p class="footer-centerside__text">Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum simply dummy text of the printing </p>
+                <div class="contacts-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-rightside">
+                <p class="side__title">Специальные страницы</p>
+                <div class="rightside__text">
+                    <a href="#">Админка</a>
+                    <a href="#">404</a>
+                    <a href="#">Реклама</a>
+                    <a href="#">Лицензии</a>
+                    <a href="#">Лист изменений</a>
+                </div>
             </div>
         </div>
-        <div class="footer-rightside">
-            <p class="side__title">Специальные страницы</p>
-            <div class="rightside__text">
-                <a href="#">Админка</a>
-                <a href="#">404</a>
-                <a href="#">Реклама</a>
-                <a href="#">Лицензии</a>
-                <a href="#">Лист изменений</a>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

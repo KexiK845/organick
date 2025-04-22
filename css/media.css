@@ -32,7 +32,7 @@
     .section__uptitle {
         font-size: 24px;
     }
-    
+
     .section__title {
         font-size: 20px;
     }
@@ -166,11 +166,13 @@
         background-image: none;
     }
 
-    .testimonial__role_mobile, .testimonial__author_mobile {
+    .testimonial__role_mobile,
+    .testimonial__author_mobile {
         display: block !important;
     }
 
-    .testimonial__author, .testimonial__role {
+    .testimonial__author,
+    .testimonial__role {
         display: none;
     }
 
@@ -262,7 +264,8 @@
         margin-bottom: 59px;
     }
 
-    .news-card:nth-child(1), .news-card:nth-child(2) {
+    .news-card:nth-child(1),
+    .news-card:nth-child(2) {
         background-image: none;
     }
 
@@ -309,9 +312,9 @@
     }
 
     .adapt-button .button {
-       width: 100%;
-       display: flex;
-       justify-content: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .mailing-section .container {
@@ -341,7 +344,8 @@
         margin: 0 auto;
     }
 
-    .footer-leftside, .footer-rightside {
+    .footer-leftside,
+    .footer-rightside {
         display: none;
     }
 
@@ -353,5 +357,10 @@
 
     .footer-centerside__text {
         margin-bottom: 31px;
+    }
+
+    .banner-section-shop .title {
+        color: white;
+        text-shadow: 1px 1px 12px black;
     }
 }
