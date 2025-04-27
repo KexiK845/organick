@@ -15,6 +15,10 @@ body {
   font-family: "Roboto";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Burger */
 .burger-menu {
   display: none;
@@ -671,20 +675,14 @@ header {
 .news {
   display: flex;
   gap: 46px;
-}
-
-.news-card:nth-child(1) {
-  background-image: url("../images/news/news1.webp");
-}
-
-.news-card:nth-child(2) {
-  background-image: url("../images/news/news2.webp");
+  row-gap: 100px;
+  flex-wrap: wrap;
 }
 
 .news-card {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 677px;
   height: 524px;
   position: relative;
   padding-left: 32px;
@@ -727,6 +725,27 @@ header {
   margin-bottom: 16px;
 }
 
+.news-main .news__author i {
+  color: #7EB693;
+}
+
+.news-main .news .button {
+  background: transparent;
+  padding: 0;
+}
+
+.news-main .news .button:hover {
+  color: #274C5B;
+}
+
+.news-main .news .news__desc {
+  margin-bottom: 20px;
+}
+
+.news-main .news .news-info {
+  top: 60%;
+}
+
 .news__author i {
   color: #EFD372;
 }
@@ -751,6 +770,8 @@ header {
   background: #EFD372;
   border: none;
 }
+
+
 
 /* Section - Mailing */
 .mailing-section {
@@ -813,6 +834,24 @@ header {
   text-align: center;
   margin-bottom: 90px;
 }
+
+.banner-section-shop .title {
+  font-size: 70px;
+}
+/* ================= */
+
+/* New Page - News */
+.news-banner-section {
+  background-image: url("../images/news-banner.webp");
+  text-align: center;
+  padding: 184px 0;
+  margin-bottom: 117px;
+}
+
+.news-banner-section .title {
+  font-size: 70px;
+}
+/* =============== */
 
 /* Section - Footer */
 footer {
@@ -904,6 +943,7 @@ footer .container {
 .rightside__text {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 35px;
   font-size: 18px;
 }

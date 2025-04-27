@@ -262,11 +262,12 @@
     .news {
         flex-direction: column;
         margin-bottom: 59px;
+        row-gap: 45px;
     }
 
-    .news-card:nth-child(1),
-    .news-card:nth-child(2) {
-        background-image: none;
+    .news-card {
+        background-image: none !important;
+        width: 260px;
     }
 
     .news__date {
@@ -360,6 +361,13 @@
     }
 
     .banner-section-shop .title {
+        font-size: 38px;
+        color: white;
+        text-shadow: 1px 1px 12px black;
+    }
+
+    .news-banner-section .title {
+        font-size: 38px;
         color: white;
         text-shadow: 1px 1px 12px black;
     }

@@ -19,14 +19,44 @@ let news = [
         date: "25 Ноя",
         author: "Павлов Артур",
         title: "Преимущества витамина D",
-        desc: "Как витамин D укрепляет здоровье и где его найти."
+        desc: "Как витамин D укрепляет здоровье и где его найти.",
+        img: "url(images/news/news1.webp)"
     },
     {
         date: "25 Ноя",
         author: "Павлов Артур",
         title: "Наши любимые летние помидоры",
-        desc: "Почему этот сорт томатов стал нашим летним фаворитом."
-    }
+        desc: "Почему этот сорт томатов стал нашим летним фаворитом.",
+        img: "url(images/news/news2.webp)"
+    },
+    {
+        date: "25 Ноя",
+        author: "Рачи Кард",
+        title: "Польза витамина C и как его получить",
+        desc: "Как витамин C укрепляет иммунитет и где его найти.",
+        img: "url(images/news/news3.webp)"
+    },
+    {
+        date: "25 Ноя",
+        author: "Рачи Кард",
+        title: "Исследуйте мир органических продуктов",
+        desc: "Откройте для себя пользу и разнообразие органических продуктов.",
+        img: "url(images/news/news4.webp)"
+    },
+    {
+        date: "25 Ноя",
+        author: "Рачи Кард",
+        title: "Фрукты для каждого дня",
+        desc: "Начните каждый день с пользы и свежести любимых фруктов.",
+        img: "url(images/news/news5.webp)"
+    },
+    {
+        date: "25 Ноя",
+        author: "Рачи Кард",
+        title: "Не используйте пластиковые изделия!",
+        desc: "Скажите 'нет' пластиковым изделиям — защитите природу!",
+        img: "url(images/news/news6.webp)"
+    },
 ];
 
 let products = [
@@ -123,7 +153,7 @@ let products = [
     }
 ];
 
-if (productCards && recomendationCards && newsCards) {
+if (productCards && recomendationCards) {
     for (let i = 0; i < 8; i++) {
         productCards.innerHTML += `
             <div class="product-card">
@@ -190,23 +220,51 @@ if (productCards && recomendationCards && newsCards) {
         </div>
     `
     }
-
-    for (let i = 0; i < 2; i++) {
-        newsCards.innerHTML += `
-        <div class="news-card">
-            <p class="news__date">${news[i].date}</p>
-            <div class="news-info">
-              <p class="news__author"><i class="fa-solid fa-user"></i> ${news[i].author}</p>
-              <p class="news__title">${news[i].title}</p>
-              <p class="news__desc">${news[i].desc}</p>
-              <a href="" class="button">Читать <i class="fa-solid fa-arrow-right ar-right"></i></a>
-            </div>
-        </div>
-    `
-    }
 }
 
-if(productCardsShop) {
+if (window.location.pathname == "/index.html") {
+    news.slice(0, 2).forEach(i => {
+        const newsCard = document.createElement('div');
+        newsCard.className = 'news-card';
+
+        newsCard.style.backgroundImage = i.img;
+
+        newsCard.innerHTML = `
+            <p class="news__date">${i.date}</p>
+            <div class="news-info">
+                <p class="news__author"><i class="fa-solid fa-user"></i> ${i.author}</p>
+                <p class="news__title">${i.title}</p>
+                <p class="news__desc">${i.desc}</p>
+                <a href="" class="button">Читать <i class="fa-solid fa-arrow-right ar-right"></i></a>
+            </div>
+        `;
+
+        newsCards.appendChild(newsCard);
+    });
+}
+
+if (window.location.pathname == "/news.html") {
+    news.forEach(i => {
+        const newsCard = document.createElement('div');
+        newsCard.className = 'news-card';
+
+        newsCard.style.backgroundImage = i.img;
+
+        newsCard.innerHTML = `
+            <p class="news__date">${i.date}</p>
+            <div class="news-info">
+                <p class="news__author"><i class="fa-solid fa-user"></i> ${i.author}</p>
+                <p class="news__title">${i.title}</p>
+                <p class="news__desc">${i.desc}</p>
+                <a href="" class="button">Читать <i class="fa-solid fa-arrow-right ar-right"></i></a>
+            </div>
+        `;
+
+        newsCards.appendChild(newsCard);
+    });
+}
+
+if (productCardsShop) {
     for (let i = 0; i < 12; i++) {
         productCardsShop.innerHTML += `
             <div class="product-card">
