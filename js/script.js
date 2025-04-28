@@ -222,7 +222,7 @@ if (productCards && recomendationCards) {
     }
 }
 
-if (window.location.pathname == "/index.html") {
+if (window.location.pathname == "/index.html"  || window.location.pathname == "/organick/") {
     news.slice(0, 2).forEach(i => {
         const newsCard = document.createElement('div');
         newsCard.className = 'news-card';
@@ -243,7 +243,7 @@ if (window.location.pathname == "/index.html") {
     });
 }
 
-if (window.location.pathname == "/news.html") {
+if (window.location.pathname == "/news.html" || window.location.pathname == "/organick/news.html") {
     news.forEach(i => {
         const newsCard = document.createElement('div');
         newsCard.className = 'news-card';
